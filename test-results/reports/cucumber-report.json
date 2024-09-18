@@ -1,0 +1,106 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "submit-the-experian-form-with-the-complete-details;complete-experian-form-and-submit-it",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Complete Experian form and submit it",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 736069799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user opens the Experian portal 'https://uat-survey.taxcreditco.com/automation-challenge'",
+            "match": {
+              "location": "src\\test\\steps\\employee_form.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7754899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters the Basic information in the form",
+            "match": {
+              "location": "src\\test\\steps\\employee_form.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4647899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user answers the yes or no questions in the form",
+            "match": {
+              "location": "src\\test\\steps\\employee_form.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2939499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user submits the form by confirming the Name",
+            "match": {
+              "location": "src\\test\\steps\\employee_form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3768699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user user should be redirected to Employer servive page 'https://www.experian.com/employer-services'",
+            "match": {
+              "location": "src\\test\\steps\\employee_form.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8653500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 6122900,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"https://www.experian.com/employer-services\"\u001b[39m\nReceived: \u001b[31m\"about:blank\"\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\kmura\\Assesment_PW\\node_modules\\playwright\\lib\\matchers\\expect.js:198:37)\n    at EmployeeServices.<anonymous> (C:\\Users\\kmura\\Assesment_PW\\src\\test\\pages\\employeeForm.ts:61:29)\n    at step (C:\\Users\\kmura\\Assesment_PW\\src\\test\\pages\\employeeForm.ts:33:23)\n    at Object.next (C:\\Users\\kmura\\Assesment_PW\\src\\test\\pages\\employeeForm.ts:14:53)\n    at fulfilled (C:\\Users\\kmura\\Assesment_PW\\src\\test\\pages\\employeeForm.ts:5:58)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "submit-the-experian-form-with-the-complete-details",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Submit the Experian Form with the complete details",
+    "tags": [],
+    "uri": "src\\test\\features\\employee_form.feature"
+  }
+]
